@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "email": "kyobist@gmail.com",
+    "password": "1234567",
+    "fullname": "hoangang"
+  },
+  {
+    "id": 1,
+    "email": "kyobis@gmail.com",
+    "password": "1234567",
+    "fullname": "hoangang"
+  },
+  {
+    "id": 2,
+    "email": "hehe@gmail.com",
+    "password": "1234567",
+    "fullname": "hoangang"
+  },
+  {
+    "id": 3,
+    "email": "kyobidds@gmail.com",
+    "password": "1234567",
+    "fullname": "hoangang"
+  }
+]
