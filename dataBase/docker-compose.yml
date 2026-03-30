@@ -1,0 +1,13 @@
+name: data_base_db
+services:
+  postgres_db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: F8
+      POSTGRES_PASSWORD: 123456
+    volumes:
+      - postgres_db:/var/lib/postgresql
+    ports:
+      - 5432:5432
+volumes:
+  postgres_db:
