@@ -1,0 +1,10 @@
+model RefreshToken {
+  id        Int      @id @default(autoincrement())
+  token     String   @unique @db.VarChar(512)
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id])
+  expiresAt DateTime @db.Timestamp()
+  createdAt DateTime @default(now()) @db.Timestamp()
+
+  @@map("refresh_tokens")
+}

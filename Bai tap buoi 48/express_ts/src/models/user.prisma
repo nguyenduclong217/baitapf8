@@ -1,0 +1,11 @@
+model User { 
+  id    Int     @id @default(autoincrement()) 
+  email String  @unique
+  name  String?
+  status Boolean
+  product Product[]
+  createdAt DateTime @db.Timestamp()
+  updateAt DateTime @db.Timestamp()
+
+  @@map("users")
+} 
